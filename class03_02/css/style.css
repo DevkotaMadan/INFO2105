@@ -4,6 +4,15 @@ body{
   font:15px Arial, sans-serif;
 }
 
+h1{
+  color: green;
+  font-size: 200%;
+}
+
+footer{
+  font-size: 80%;
+}
+
 }
 table{
   boarder:1px solid black
@@ -53,25 +62,4 @@ body {
   background-repeat: no-repeat;
   background-size:contain;
   background-attachment: fixed;
-}
-
-header{
-  color: red;
-}
-/*
-ul{
-  font-weight: bold;
-}
-*/
-
-p{
-  color: red;
-}
-
-h1{
-  color: green;
-}
-
-footer{
-  font-size: 80%;
 }
