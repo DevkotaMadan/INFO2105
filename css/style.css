@@ -1,25 +1,69 @@
 @charset "UTF-8";
 
-body {
-  background-color: white;
+body{
+  font:18px Arial, sans-serif;
+  background-image: url('../images/morocco.jpg');
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-header{
-  color: red;
+
+li{
+  list-style-type: square;
+  list-style-position: outside;
+  display: inline-block;
+  margin:0 10px;
 }
 
-ul{
+
+a:link{
+  color:black;
   font-weight: bold;
 }
 
-p{
-  color: red
+a:visited{
+  color:grey;
+  font-weight: normal;
+}
+
+a:hover{
+  font-weight: bold;
+}
+
+a:active{
+  font-weight: bold;
+  color:red;
 }
 
 h1{
-  color: green
+  font-size: 200%;
+}
+
+main{
+  min-width: 800px;
+  padding:40px;
+  background-color: rgba(255,255,255,0.5)
+}
+
+section{
+  border:2px solid black;
+  padding:20px;
+  margin:20px;
+  background-color: mistyrose;
 }
 
 footer{
-  font-size: 15
+  border:2px solid black;
+  background-color: pink;
+  width:80%
+  font-size: 80%;
+  padding:20px;
+}
+
+p{
+  width:inherit;
+}
+
+table{
+  boarder:1px solid black
 }
