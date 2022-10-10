@@ -28,6 +28,15 @@ a:visited{
   text-decoration: none;
 }
 
+a:hover:before {
+  content: '';
+  position: fixed;
+  display: block;
+  top: 0; bottom: 0; left: 0; right: 0;
+  z-index: -1;
+  background-color: grey;
+}
+
 a:hover{
   font-weight: bold;
   text-decoration: none;
@@ -58,7 +67,7 @@ section{
 
 footer{
   border:2px solid black;
-  background-color: pink;
+  background-color: mistyrose;
   width:80%
   font-size: 80%;
   padding:20px;
