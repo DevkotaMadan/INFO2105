@@ -19,19 +19,23 @@ li{
 a:link{
   color:black;
   font-weight: bold;
+  text-decoration: none;
 }
 
 a:visited{
   color:grey;
   font-weight: normal;
+  text-decoration: none;
 }
 
 a:hover{
   font-weight: bold;
+  text-decoration: none;
 }
 
 a:active{
   font-weight: bold;
+  text-decoration: none;
   color:red;
 }
 
