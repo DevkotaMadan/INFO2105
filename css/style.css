@@ -1,10 +1,44 @@
 @charset "UTF-8";
 
+p{
+  width:inherit;
+}
+
+.warning{
+  color:red;
+}
+
+nav{
+  width:80%;
+}
+
+header{
+  width:80%;
+}
+
 body{
   font:18px Arial, sans-serif;
   background-image: url('../images/morocco.jpg');
   background-size: cover;
   background-attachment: fixed;
+}
+
+h1{
+  font-size: 200%;
+}
+
+main{
+  width:80%
+  padding:40px;
+  background-color: rgba(255,255,255,0.5)
+}
+
+footer{
+  border:2px solid black;
+  background-color: mistyrose;
+  width:80%
+  font-size: 80%;
+  padding:20px;
 }
 
 
@@ -48,15 +82,6 @@ a:active{
   color:red;
 }
 
-h1{
-  font-size: 200%;
-}
-
-main{
-  min-width: 800px;
-  padding:40px;
-  background-color: rgba(255,255,255,0.5)
-}
 
 section{
   border:2px solid black;
@@ -65,18 +90,14 @@ section{
   background-color: mistyrose;
 }
 
-footer{
-  border:2px solid black;
-  background-color: mistyrose;
-  width:80%
-  font-size: 80%;
-  padding:20px;
-}
-
-p{
-  width:inherit;
-}
-
 table{
-  boarder:1px solid black
+  border:1px solid black;
+  border-collapse: collapse;
+  background-color: whitesmoke;
+  width: 80%;
+}
+
+td{
+  border:1px solid black;
+  padding: 10px;
 }
