@@ -48,6 +48,24 @@ body{
   background-attachment: fixed;
 }
 
+h1{
+  font-size: 200%;
+}
+
+main{
+  width:80%
+  padding:40px;
+  background-color: rgba(255,255,255,0.5)
+}
+
+footer{
+  border:2px solid black;
+  background-color: mistyrose;
+  width:80%
+  font-size: 80%;
+  padding:20px;
+}
+
 
 li{
   list-style-type: square;
@@ -70,20 +88,10 @@ a:visited{
   text-decoration: none;
 }
 
-/*a:hover:before {
-  content: '';
-  position: fixed;
-  display: block;
-  top: 0; bottom: 0; left: 0; right: 0;
-  z-index: -1;
-  background-color: grey;
-}
-*/
-
 a:hover{
   font-weight: bold;
   text-decoration: none;
-  background-color: grey;
+  background-color: yellow;
 }
 
 a:active{
@@ -92,15 +100,6 @@ a:active{
   color:red;
 }
 
-h1{
-  font-size: 200%;
-}
-
-main{
-  padding:40px;
-  background-color: rgba(255,255,255,0.5);
-  overflow:auto;
-}
 
 section{
   border:2px solid black;
@@ -109,26 +108,14 @@ section{
   background-color: mistyrose;
 }
 
-footer{
-  border:2px solid black;
-  background-color: mistyrose;
-  width:80%
-  font-size: 80%;
-  padding:20px;
-}
-
-p{
-  width:inherit;
-}
-
 table{
   border:1px solid black;
   border-collapse: collapse;
-  width: 800px;
-  background-color: skyblue;
+  background-color: whitesmoke;
+  width: 80%;
 }
 
 td{
   border:1px solid black;
-
+  padding: 10px;
 }
