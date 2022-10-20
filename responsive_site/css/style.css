@@ -1,5 +1,23 @@
+#top{
+  font-size: 40px;
+}
+
+@media screen and (max-width:600px){
+
+    #top{
+      font-size: 20px;
+    }
+
+}
+
+@media screen and (min-width:800px){
+  #top{
+    font-size: 70px;
+  }
+}
+
 body{
-  background-color:pink;
+  background-color:skyblue;
 }
 
 .text{
@@ -16,22 +34,20 @@ body{
   background-color: white;
 }
 
-@media screen and (min-width:800px)
-{
-    body{
-      background-color:skyblue;
-    }
 
-    h1{
-      font-size:80px;
-    }
-}
 
 @media screen and (max-width:800px){
   .text{
     padding:5px;
     margin:0px 5px;
-    border: 0px;
-    background-color:yellow;
+  }
+}
+
+@media screen and (min-width:1000px){
+  .text{
+    padding:40px;
+    margin:0px 40px;
+    border:0px;
+    background-color: yellow;
   }
 }
