@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: SEGOEUI;
+  src: url('fonts/SEGOEUI.ttf') format('truetype');
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+h1{
+  font-size: 3em;
+  text-align: center;
+}
+
+.navigation{
+  background-color: #63B4C9;
+  margin: 30px 0px;
+  text-align: center;
+}
+
+li{
+  display: inline-block;
+  list-style-type: square;
+  list-style-position: outside;
+  align-items: center;
+  padding:20px;
+  text-decoration: none;
+  text-transform:uppercase;
+
+}
+
+body{
+  background-color: #EBEBE0;
+  font-size: medium;
+}
+
+.flex_container{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: #C5BCAB;
+  padding:30px;
+  width:70%;
+}
+
+.flex_container > div{
+  background-color: #FFFFFF;
+  margin:10px;
+  padding:20px;
+  text-align: center;
+  border: 1px solid #4C3639;
+}
+
+footer{
+  margin: 30px;
+  text-align: center;
+}
