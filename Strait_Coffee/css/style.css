@@ -5,11 +5,11 @@
   src: url('fonts/SEGOEUI.ttf') format('truetype');
 }
 
-img{
+.logo{
   display: block;
   margin-left: auto;
   margin-right: auto;
-
+  justify-content: : center;
 }
 
 h1{
@@ -25,13 +25,28 @@ h1{
 
 li{
   display: inline-block;
-  list-style-type: square;
-  list-style-position: outside;
-  align-items: center;
   padding:20px;
-  text-decoration: none;
   text-transform:uppercase;
+}
 
+a:link{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+a:visited{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+a:active{
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 body{
@@ -40,20 +55,26 @@ body{
 }
 
 .flex_container{
-  display: flex;
   justify-content: center;
+  display: flex;
   flex-direction: row;
   background-color: #C5BCAB;
+  margin:30px auto;
   padding:30px;
   width:70%;
 }
 
 .flex_container > div{
   background-color: #FFFFFF;
-  margin:10px;
+  margin: 10px;
   padding:20px;
   text-align: center;
   border: 1px solid #4C3639;
+  width: 50%;
+}
+
+.flex_container >div>img{
+  width: 100%;
 }
 
 footer{
