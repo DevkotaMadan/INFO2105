@@ -38,10 +38,25 @@ section {
   border: 1px solid black;
 }
 
+div{
+  background-color: #f1f1f1;
+  width: 33%;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid black;
+}
+
 .featureimg {
   width: 100%;
 }
 
+video{
+  width: 100%;
+}
+
+form{
+  text-align: left;
+}
 
 /* Typography */
 

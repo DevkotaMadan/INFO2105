@@ -1,0 +1,8 @@
+Using the Answer Key provided, please create
+The Contact us page
+On this contact page, please add the attached video and the form as shown to you in the mockup provided
+The Menu page
+On the menu page, please make add the greyscale transition to your images
+The homepage
+Please add a zoom effect to the current image
+Add a favicon to your website, please use the logo provided
