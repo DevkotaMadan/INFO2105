@@ -85,7 +85,7 @@ form{
 }
 
 input[type=text]{
-  border: 2px solid grey;
+  border: 1px solid grey;
   border-radius: 4px;
   margin: 5px auto 20px auto;
   width: 100px;
@@ -93,11 +93,16 @@ input[type=text]{
   padding: 10px;
 }
 
-#question{
+textarea{
+  resize: none;
+  border: 1px solid grey;
+  border-radius: 4px;
   margin: 5px 5px 20px 5px;
+  padding: 10px;
   width: 90%;
-  height: 350px;
+  rows:20;
 }
+
 
 /* Typography */
 
@@ -129,6 +134,10 @@ nav {
   background-color: #63B4C9;
 }
 
+textarea{
+  padding: 10px;
+  font-family: SEGOEUI, arial, sans-serif;
+}
 
 ul {
   padding:0;
@@ -155,7 +164,6 @@ a:visited{
 a:hover{
     color:#4C3639;
     text-shadow: 2px 2px 2px rgba(0,0,0,0.3);
-}
 }
 
 a:active{
