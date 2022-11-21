@@ -46,9 +46,9 @@ section {
 @media screen and (max-width: 1200px){
   main {
     width:70%;
-    margin:30px auto;
+    margin:10px auto;
     background-color: white;
-    padding:30px;
+    padding:10px;
   }
 
   section{
