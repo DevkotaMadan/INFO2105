@@ -1,0 +1,16 @@
+Browser
+	Chrome
+	Edge
+	Firefox
+	Opera
+
+Device
+	Desktop Windows 10 Enterprise 20H2 
+	Laptop
+	Tablet
+	Mobile
+
+Desktop size
+	Large
+	Medium
+	Small
