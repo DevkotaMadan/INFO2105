@@ -1,0 +1,105 @@
+/* Colour Palette
+White: #FFFFFF
+Black: #000000
+Beige: #C5BCAB
+Ivory: #EBEBE0
+Blue: #63B4C9
+Brown: #4C3639
+*/
+
+ /* Main Structure*/
+
+@font-face {
+  font-family: berkshireswash;
+  src:url("..//berkshireswash-regular-webfont.woff");
+}
+body{
+  font-family: arial;
+}
+.heading{
+  color: #63B4C9;
+  font-family: berkshireswash;
+}
+body{
+  margin: auto;
+  background-color: #EBEBE0;
+}
+
+header{
+  display: flex;
+  font-size:50px;
+}
+
+
+nav{
+  background-color: #63B4C9;
+  padding: 20px;
+}
+
+nav li{
+  display: inline-block;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:link{
+    color: #FFFFFF;
+    padding:20px;
+}
+
+a:visited{
+    color: #FFFFFF;
+}
+
+a:hover{
+    color: #FFFFFF;
+}
+
+a:active{
+  color: #FFFFFF;
+}
+
+main{
+  margin: 30px auto;
+  width: 80%;
+  border: 1px solid #63B4C9;
+  padding: 10px;
+}
+
+section{
+  background-color: #C5BCAB;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+  width: 92%;
+}
+
+div{
+  width:25%;
+  padding:15px;
+}
+div> img{
+  width: 95%;
+}
+
+footer{
+  background-color: #63B4C9;
+  padding: 20px;
+  font-size: 10px;
+  color:  #FFFFFF;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px){
+  section{
+    display: flex;
+    flex-direction: column;
+  }
+
+  div{
+    width: 90%;
+  }
+}
