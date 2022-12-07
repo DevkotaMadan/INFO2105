@@ -8,7 +8,7 @@ Device
 	Desktop Windows 10 Enterprise 20H2 
 	Laptop
 	Tablet
-	Mobile
+	Mobile 2 photos
 
 Desktop size
 	Large
